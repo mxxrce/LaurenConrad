@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Lauren Conrad</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+	<!-- these are the three things jQuery Mobile NEEDS in order to work properly! -->
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<link rel="stylesheet" href="css/themes/LaurenConrad_v2.css" />
+    <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/default.css" media="screen">
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body data-theme="a">
+
+<!-- ### HOME ### -->
+
+<section data-role="page" id="home" data-transition="slide">
+
+	<header data-role="header" data-position="fixed">
+		<hgroup>
+			<h1 id="siteId" class="hiddenElement"><span>Lauren Conrad</span></h1>
+		</hgroup>
+	</header>
+	
+	<div id="logoStacked">
+		<span class="hiddenElement">Lauren Conrad</span>
+	</div>
+	
+	<nav id="main" data-role="navbar" data-iconpos="top">
+		<div class="ui-grid-b">
+			<div class="ui-block-a"><a href="#wear" data-icon="custom" class="ui-icon-mywear">Wear</a></div>
+			<div class="ui-block-b"><a href="#primp" data-icon="custom" data-transition="slide" class="ui-icon-myprimp">Primp</a></div>
+			<div class="ui-block-c"><a href="#getFit" data-icon="custom" class="ui-icon-mygetfit">Get Fit</a></div>
+			<div class="ui-block-a"><a href="#dine" data-icon="custom" class="ui-icon-mydine">Dine</a></div>
+			<div class="ui-block-b"><a href="#decorate" data-icon="custom" class="ui-icon-mydecorate">Decorate</a></div>
+			<div class="ui-block-c"><a href="#craft" data-icon="custom" class="ui-icon-mycraft">Craft</a></div>
+			<div class="ui-block-a"><a href="#read" data-icon="custom" class="ui-icon-myread">Read</a></div>
+			<div class="ui-block-b"><a href="#boutique" data-icon="custom" class="ui-icon-myboutique">Boutique</a></div>
+			<div class="ui-block-c"><a href="#whatsNew" data-icon="custom" class="ui-icon-mywhatsnew">New</a></div>
+		</div>
+	</nav>
+	
+	<!--
+	<ul>
+		<li><a href="http://www.facebook.com/laurenconrad">Facebook</a></li>
+		<li><a href="https://twitter.com/laurenconradcom">Twitter</a></li>
+		<li><a href="http://pinterest.com/laurenconrad1/">Pintrest</a></li>
+		<li><a href="http://www.youtube.com/laurenconrad">Youtube</a></li>
+		<li><a href="http://instagram.com/laurenconrad">Instagram</a></li>
+		<li><a href="http://www.bloglovin.com/blog/2530126/lauren-conrad">Bloglovin'</a></li>
+	</ul>
+	
+	<div class="ui-grid-d">
+		<div class="ui-block-a"><a href="#" data-role="button" data-icon="custom" data-iconpos="notext" class="socialMediaButtons">Facebook</a></div>
+		<div class="ui-block-b"><a href="#" data-role="button" data-icon="custom" data-iconpos="notext" class="socialMediaButtons">Twitter</a></div>
+		<div class="ui-block-c"><a href="#" data-role="button" data-icon="custom" data-iconpos="notext" class="socialMediaButtons">Pintrest</a></div>
+		<div class="ui-block-d"><a href="#" data-role="button" data-icon="custom" data-iconpos="notext" class="socialMediaButtons">Youtube</a></div>
+		<div class="ui-block-e"><a href="#" data-role="button" data-icon="custom" data-iconpos="notext" class="socialMediaButtons">Instagram</a></div>
+	</div>		 -->
+
+</section>
+
+
+
+
+<!-- ### PRIMP ### -->
+
+<section data-role="page" id="primp">
+
+	<header data-role="header" data-position="fixed">
+		<hgroup>
+			<h1 id="siteId" class="hiddenElement"><span>Lauren Conrad</span></h1>
+		</hgroup>
+	</header>
+	
+	<div id="logoStacked">
+		<span class="hiddenElement">Lauren Conrad</span>
+	</div>
+
+	<nav id="primpNav">
+		<a href="#makeupArticles" data-role="button" data-transition="slide">Makeup</a>
+		<a href="#hairArticles" data-role="button">Hair</a>
+		<a href="#nailsArticles" data-role="button">Nails</a>
+		<a href="#skinArticles" data-role="button">Skin</a>
+		<a href="#allPrimpArticles" data-role="button">All</a>
+	</nav>
+	
+	<a href="#home" data-icon="back" data-iconpos="left" data-inline="true" data-role="button" data-transition="slide" data-direction="reverse" id="backToHome" >Back to Home</a>	
+
+</section>
+
+
+
+
+<!-- ### PRIMP ARTICLES PAGE ### -->
+
+<section data-role="page" id="makeupArticles">
+
+	<header data-role="header" data-position="fixed">
+		<a href="#primp" data-icon="back" data-iconpos="notext" data-transition="slide" data-direction="reverse">Back</a>
+		<h1><span>Makeup Articles</span></h1>
+		<a href="#home" data-icon="home" data-iconpos="notext" class="ui-btn-right" data-direction="reverse">Home</a>
+	</header>
+	
+	<article id="content" data-role="content">
+	
+		<section class="gall" id="articlesList">
+		
+			<div class="articlesList">
+				<a href="#" title="Beauty Beginners: How to Contour">
+				<img src="images/BB_HowToContour.jpg" alt="Primp Gallery Nav Image" class="articleThumbnail"/>
+				<h3>Beauty Beginners: How to Contour</h3>
+				<p class="articleInfo">Posted by Lauren Conrad
+				<br>May 12th, 2015</p>
+				<p class="articleDesc">Read on for your full beauty beginners guide to contouring</p>
+				<p class="articleInfo">38 comments</p>
+				</a>
+			</div>
+			
+			<div class="articlesList">
+				<a href="#blogPost" title="Beauty Beginners: The Smart Girl’s Guide to Lipstick" data-transition="slide">
+				<img src="images/BB_GuideToLipstick.jpg" alt="Primp Gallery Nav Image" class="articleThumbnail"/>
+				<h3>Beauty Beginners: The Smart Girl’s Guide to Lipstick</h3>
+				<p class="articleInfo">Posted by Lauren Conrad
+				<br>April 7th, 2015</p>
+				<p class="articleDesc">Read on for Lauren’s ultimate lipstick guide</p>
+				<p class="articleInfo">44 comments</p>
+				</a>
+			</div>
+
+			<div class="articlesList">
+				<a href="#" title="Tuesday Ten: What’s In My Makeup Bag">
+				<img src="images/TT_MakeupBag.jpg" alt="Primp Gallery Nav Image" class="articleThumbnail"/>
+				<h3>Tuesday Ten: What’s In My Makeup Bag</h3>
+				<p class="articleInfo">Posted by Lauren Conrad
+				<br>March 24th, 2015</p>
+				<p class="articleDesc">Read on to hear about the top 10 items in Lauren’s makeup bag</p>
+				<p class="articleInfo">64 comments</p>
+				</a>
+			</div>
+
+			<div class="articlesList">
+				<a href="#" title="Beauty Beginners: How to Find the Right Foundation">
+				<img src="images/BB_RightFoundation.jpg" alt="Primp Gallery Nav Image" class="articleThumbnail"/>
+				<h3>Beauty Beginners: How to Find the Right Foundation</h3>
+				<p class="articleInfo">Posted by Lauren Conrad
+				<br>March 12th, 2015</p>
+				<p class="articleDesc">Read on to go back to the basics of choosing and applying a foundation</p>
+				<p class="articleInfo">83 comments</p>
+				</a>
+			</div>
+
+			<div class="articlesList">
+				<a href="#" title="Beauty Essentials: My Favorite Red Lipsticks">
+				<img src="images/BE_FaveRedLipstick.jpg" alt="Primp Gallery Nav Image" class="articleThumbnail"/>
+				<h3>Beauty Essentials: My Favorite Red Lipsticks</h3>
+				<p class="articleInfo">Posted by Lauren Conrad
+				<br>November 26th, 2014</p>
+				<p class="articleDesc">Read on to find out what my favorite red lipsticks are</p>
+				<p class="articleInfo">43 comments</p>
+				</a>
+			</div>
+
+			<div class="articlesList">
+				<a href="#" title="Beauty Essentials: My Favorite Eyeliner">
+				<img src="images/BE_FaveEyeliner.jpg" alt="Primp Gallery Nav Image" class="articleThumbnail"/>
+				<h3>Beauty Essentials: My Favorite Eyeliner</h3>
+				<p class="articleInfo">Posted by Lauren Conrad
+				<br>November 20th, 2014</p>
+				<p class="articleDesc">Read on to learn about my all-time favorite eyeliners</p>
+				<p class="articleInfo">70 comments</p>
+				</a>
+			</div>
+
+			<div class="articlesList">
+				<a href="#" title="Beauty 911: How Do I Apply Sunscreen with My Makeup?">
+				<img src="images/B911_ApplySunscreenMakeup.jpg" alt="Primp Gallery Nav Image" class="articleThumbnail"/>
+				<h3>Beauty 911: How Do I Apply Sunscreen with My Makeup?</h3>
+				<p class="articleInfo">Posted by Jessica Hagy
+				<br>November 6th, 2014</p>
+				<p class="articleDesc">Learn the right way to apply sunscreen with your makeup</p>
+				<p class="articleInfo">37 comments</p>
+				</a>
+			</div>
+
+			<div class="articlesList">
+				<a href="#" title="Tripping: Travel Friendly Beauty Products">
+				<img src="images/Tripping_TravelFriendlyProducts.jpg" alt="Primp Gallery Nav Image" class="articleThumbnail"/>
+				<h3>Tripping: Travel Friendly Beauty Products</h3>
+				<p class="articleInfo">Posted by Ilana Saul
+				<br>July 17th, 2014</p>
+				<p class="articleDesc">Read on for a few tips and must-have products to pack in your travel makeup bag</p>
+				<p class="articleInfo">46 comments</p>
+				</a>
+			</div>
+
+		</section>
+	
+	</article>
+		
+</section>
+
+
+
+
+<!-- ### ARTICLE ### -->
+
+<section data-role="page" id="blogPost">
+
+	<header data-role="header" data-position="fixed">
+		<a href="#makeupArticles" data-icon="back" data-iconpos="notext" data-transition="slide" data-direction="reverse">Back</a>
+		<h1><span class="hiddenElement">Lauren Conrad</span>
+		<div id="logoHoriz"></div>
+		</h1>
+		<a href="#home" data-icon="home" data-iconpos="notext" class="ui-btn-right" data-direction="reverse">Home</a>
+	</header>
+	
+	<article id="content" data-role="content">
+		<div class="blogPosting">
+			<h2>Beauty Beginners: The Smart Girl’s Guide to Lipstick</h2>
+			<p class="articleInfo">Posted by <a href="#">Lauren Conrad</a> &nbsp;|&nbsp; April 7, 2015</p>
+				<div class="articleBody">
+					<a href="images/BB_GuideToLipstick_Full.jpg" title="Image 1" rel="lightbox" class="lightbox" target="picture">
+					<img src="images/BB_GuideToLipstick_Full.jpg" alt="Image 1" class="articleImg"/></a>
+					<p>Welcome to the second installment of Beauty Beginners, a series where I’ll be sharing my beginner-friendly, fundamental beauty routines. In my last post I laid down the basics for finding the best foundation for your skin type. Not only is that post a good refresher for our beauty gurus out there, but it’s also a solid start for those who aren’t as confident in the makeup department. Similar to applying flawless foundation, lipstick can be a bit tricky. Today I’ll be taking you through my foolproof guide to finding your perfect lipstick…</p>
+					<h3>Finding The Best Lipstick For Your Complexion</h3>
+						<p>Unfortunately not all shades complement every skin tone. Red lipstick alone has such a wide variety! Complexions vary just as much as lipstick shades, so my advice is to always test colors against your skin before you make a decision. If your skin has more of a pink undertone, I suggest trying cool-based colors while darker complexions pair well with warmer, coral hues. I also mix reds all the time to come up with my own custom shade.</p>
+					<h3>How to Decide Between Satin, Matte, or Gloss</h3>
+						<p>Lipsticks come in a variety of textures, so how do you decide between them all? It’s great if you already have a personal preference, but for beauty newcomers my advice is to test away. I usually wear a subtle, neutral gloss for daytime and reserve bold satins and mattes for going out. Bold is beautiful, just remember that upkeep is key! If you prefer something more subtle, tinted balms and lip glosses should do the trick.</p>
+					<h3>Drugstore vs. Department Store</h3>
+						<p>While it’s true that paying top dollar for quality lipsticks is worth it, drugstores have some hidden gems. Buying lipstick at your local drugstore allows you to test colors and textures without breaking the bank.</p>
+					<h3>Application Tips</h3>
+						<p>With lipstick, moisture is everything. Chapped lips can ruin the perfect pout, so prior to application I recommend making sure your lips are both exfoliated and moisturized. Once my lips are prepped I usually opt to define my lips with liner in a similar shade to my desired lipstick. Follow the natural shape of your lips making sure to stay inside the lines (you don’t want to look like you belong in the circus!). Tip: After you’ve fully applied your lipstick, lightly blot your lips with a tissue for a polished, even look. This will also lessen the chance of you getting lipstick all over your teeth!</p><br>
+					<p>Be sure to have your lipstick on hand for any midday (or night) touch-ups! I hope you find these tips helpful. For some of my favorite lipsticks, be sure to click here or shop them below…<br>
+					What are some of your favorite lipsticks?</p><br>
+					<p><span id="laurenSig">XO Lauren</span></p>
+				</div>
+			<p class="articleInfo bottomArticleInfo">Photo: Estee Lauder<br>
+			Categories: <a href="#">beauty note</a>, <a href="#">lauren conrad</a>, <a href="#">makeup</a>, <a href="#">primp</a><br>
+			<a href="#">44 Comments</a> &nbsp;|&nbsp; <span id="shareButton"><a href="#">Share</a></span></p>
+				<div class="relatedPosts">
+					<h3>Related Posts</h3>
+					<ul>
+						<li><a href="#">Beauty Beginners: How to Find the Right Foundation</a></li>
+						<li><a href="#">Primp Tip: The Best Reds for Your Skin Tone</a></li>
+						<li><a href="#">Beauty Beginners: How to Contour</a></li>
+						<li><a href="#">Tuesday Ten: What’s In My Makeup Bag</a></li>
+				</div>
+		</div>
+	</article>
+	
+	<footer data-role="footer" data-position="fixed"></footer>
+
+</section><!-- end joy naomi page -->
+
+
+</body>
+</html>
